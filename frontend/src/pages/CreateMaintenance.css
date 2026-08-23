@@ -1,0 +1,1247 @@
+/* =========================================================
+   SOCIETY OS — MAINTENANCE
+   WARM SKIN × BROWN × TERRACOTTA × IVORY
+   Warm • Premium • Human • Residential
+   ========================================================= */
+
+.create-maintenance-page {
+  min-height: 100vh;
+  background:
+    radial-gradient(
+      circle at 88% 5%,
+      rgba(168, 102, 78, 0.09),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 5% 85%,
+      rgba(139, 108, 88, 0.06),
+      transparent 24%
+    ),
+    #f6efe7;
+
+  color: #3b2923;
+
+  font-family:
+    Inter,
+    "Segoe UI",
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.maintenance-header {
+  height: 78px;
+  padding: 0 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: rgba(255, 250, 244, 0.96);
+
+  border-bottom: 1px solid #e5d8cd;
+
+  position: sticky;
+  top: 0;
+  z-index: 20;
+
+  box-sizing: border-box;
+
+  backdrop-filter: blur(12px);
+}
+
+
+/* BRAND */
+
+.maintenance-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+}
+
+.maintenance-brand-mark {
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 13px;
+
+  background: #5a3d32;
+  color: #fff9f3;
+
+  font-size: 19px;
+  font-weight: 800;
+
+  box-shadow:
+    0 8px 20px rgba(90, 61, 50, 0.18);
+}
+
+.maintenance-brand h1 {
+  margin: 0;
+
+  color: #3b2923;
+
+  font-size: 22px;
+  font-weight: 800;
+
+  letter-spacing: -0.7px;
+}
+
+.maintenance-brand span {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #89766c;
+
+  font-size: 11px;
+  font-weight: 600;
+
+  letter-spacing: 0.2px;
+}
+
+
+/* DASHBOARD BUTTON */
+
+.maintenance-dashboard-btn {
+  padding: 10px 17px;
+
+  border: 1px solid #ddcfc3;
+  border-radius: 10px;
+
+  background: #fffaf4;
+
+  color: #654c41;
+
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.maintenance-dashboard-btn:hover {
+  background: #5a3d32;
+  border-color: #5a3d32;
+  color: #ffffff;
+
+  transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   MAIN
+   ========================================================= */
+
+.maintenance-main {
+  width: 100%;
+  max-width: 1180px;
+
+  margin: 0 auto;
+
+  padding: 62px 40px 85px;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   CREATE SECTION
+   ========================================================= */
+
+.maintenance-create-section {
+  display: grid;
+
+  grid-template-columns:
+    0.86fr 1.14fr;
+
+  gap: 64px;
+
+  align-items: start;
+}
+
+
+/* =========================================================
+   INTRO
+   ========================================================= */
+
+.maintenance-intro {
+  padding-top: 18px;
+}
+
+.maintenance-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  margin-bottom: 20px;
+
+  color: #a8664e;
+
+  font-size: 12px;
+  font-weight: 800;
+
+  letter-spacing: 1.8px;
+}
+
+.maintenance-label span {
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background: #b86f54;
+
+  box-shadow:
+    0 0 0 5px rgba(184, 111, 84, 0.11);
+}
+
+.maintenance-intro h2 {
+  margin: 0 0 20px;
+
+  color: #3b2923;
+
+  font-size: 51px;
+  line-height: 1.04;
+
+  font-weight: 800;
+
+  letter-spacing: -2.4px;
+}
+
+.maintenance-intro > p {
+  max-width: 425px;
+
+  margin: 0;
+
+  color: #75645c;
+
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   POINTS
+   ========================================================= */
+
+.maintenance-points {
+  margin-top: 43px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 24px;
+}
+
+.maintenance-point {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 14px;
+}
+
+.point-number {
+  width: 39px;
+  height: 39px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 11px;
+
+  background: #eadfd5;
+
+  color: #694a3d;
+
+  font-size: 10px;
+  font-weight: 800;
+
+  letter-spacing: 0.4px;
+}
+
+.maintenance-point strong {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: #503a31;
+
+  font-size: 14px;
+  font-weight: 750;
+}
+
+.maintenance-point span {
+  display: block;
+
+  max-width: 315px;
+
+  color: #8a7870;
+
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   FORM CARD
+   ========================================================= */
+
+.maintenance-form-card {
+  padding: 34px;
+
+  background: #fffaf4;
+
+  border: 1px solid #e4d7cb;
+
+  border-radius: 20px;
+
+  box-shadow:
+    0 18px 45px rgba(83, 57, 45, 0.08);
+
+  position: relative;
+}
+
+.maintenance-form-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 34px;
+  right: 34px;
+
+  height: 3px;
+
+  border-radius: 0 0 8px 8px;
+
+  background: #a8664e;
+}
+
+
+/* FORM HEADER */
+
+.maintenance-form-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  padding-bottom: 23px;
+  margin-bottom: 29px;
+
+  border-bottom: 1px solid #eee4da;
+}
+
+.maintenance-form-top > div:first-child > span {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #a08c82;
+
+  font-size: 10px;
+  font-weight: 800;
+
+  letter-spacing: 1.6px;
+}
+
+.maintenance-form-top h3 {
+  margin: 0;
+
+  color: #4a342b;
+
+  font-size: 28px;
+  font-weight: 800;
+
+  letter-spacing: -0.9px;
+}
+
+
+/* READY BADGE */
+
+.ready-badge {
+  display: flex;
+  align-items: center;
+
+  gap: 7px;
+
+  padding: 7px 12px;
+
+  border-radius: 20px;
+
+  background: #f1e5dc;
+
+  color: #9a5d46;
+
+  font-size: 11px;
+  font-weight: 750;
+}
+
+.ready-badge i {
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+
+  background: #a8664e;
+}
+
+
+/* =========================================================
+   FORM
+   ========================================================= */
+
+.maintenance-form-card form {
+  display: flex;
+  flex-direction: column;
+
+  gap: 25px;
+}
+
+.maintenance-field {
+  display: flex;
+  flex-direction: column;
+
+  gap: 9px;
+}
+
+.field-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.field-title label {
+  color: #594238;
+
+  font-size: 14px;
+  font-weight: 750;
+}
+
+.field-title small {
+  color: #a5958b;
+
+  font-size: 10px;
+  font-weight: 600;
+}
+
+
+/* INPUTS */
+
+.maintenance-form-card input,
+.maintenance-form-card select {
+  width: 100%;
+  min-height: 51px;
+
+  box-sizing: border-box;
+
+  padding: 12px 15px;
+
+  border: 1px solid #ddcfc3;
+  border-radius: 10px;
+
+  background: #fdf9f4;
+
+  color: #49352d;
+
+  font-family: inherit;
+  font-size: 14px;
+
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.maintenance-form-card input::placeholder {
+  color: #aaa097;
+}
+
+.maintenance-form-card input:hover,
+.maintenance-form-card select:hover {
+  border-color: #cdb9aa;
+}
+
+.maintenance-form-card input:focus,
+.maintenance-form-card select:focus {
+  background: #ffffff;
+
+  border-color: #a8664e;
+
+  box-shadow:
+    0 0 0 3px rgba(168, 102, 78, 0.12);
+}
+
+
+/* =========================================================
+   AMOUNT
+   ========================================================= */
+
+.amount-box {
+  position: relative;
+}
+
+.amount-box > span {
+  position: absolute;
+
+  left: 15px;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  color: #a8664e;
+
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.amount-box input {
+  padding-left: 35px;
+}
+
+
+/* =========================================================
+   TWO FIELDS
+   ========================================================= */
+
+.maintenance-two-fields {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 16px;
+}
+
+/* =========================================================
+   CREATE BUTTON — LIGHT TEAL
+   ========================================================= */
+
+.create-maintenance-btn {
+  width: 100%;
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 3px;
+
+  border: 1px solid #b8d9d4;
+  border-radius: 10px;
+
+  background: #dcefeb;
+  color: #285c57;
+
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 750;
+  cursor: pointer;
+
+  box-shadow:
+    0 9px 20px rgba(72, 128, 121, 0.12);
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.create-maintenance-btn:hover {
+  background: #c8e3de;
+  border-color: #a8cec8;
+  color: #214f4a;
+
+  transform: translateY(-1px);
+
+  box-shadow:
+    0 12px 25px rgba(72, 128, 121, 0.17);
+}
+
+.create-maintenance-btn span {
+  font-size: 18px;
+}
+
+/* =========================================================
+   ALERTS
+   ========================================================= */
+
+.maintenance-alert {
+  display: flex;
+
+  gap: 11px;
+
+  margin-top: 17px;
+
+  padding: 14px;
+
+  border-radius: 11px;
+}
+
+.maintenance-alert.success {
+  background: #edf4ee;
+
+  border: 1px solid #d6e4d9;
+
+  color: #557563;
+}
+
+.maintenance-alert.error {
+  background: #faeeea;
+
+  border: 1px solid #ead3c9;
+
+  color: #a45d47;
+}
+
+.alert-icon {
+  width: 29px;
+  height: 29px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #ffffff;
+
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.maintenance-alert strong {
+  display: block;
+
+  margin-bottom: 3px;
+
+  font-size: 12px;
+}
+
+.maintenance-alert p {
+  margin: 0;
+
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+
+/* =========================================================
+   PAYMENT HISTORY
+   ========================================================= */
+
+.payment-history {
+  margin-top: 72px;
+
+  padding-top: 35px;
+
+  border-top: 1px solid #ddcfc3;
+}
+
+
+/* =========================================================
+   HISTORY HEADING
+   ========================================================= */
+
+.history-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 20px;
+}
+
+.history-label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #a8664e;
+
+  font-size: 11px;
+  font-weight: 800;
+
+  letter-spacing: 1.7px;
+}
+
+.history-heading h2 {
+  margin: 0;
+
+  color: #4a342b;
+
+  font-size: 30px;
+  line-height: 1.2;
+
+  font-weight: 800;
+
+  letter-spacing: -0.8px;
+}
+
+
+/* =========================================================
+   COUNT
+   ========================================================= */
+
+.record-count {
+  display: flex;
+  align-items: baseline;
+
+  gap: 5px;
+
+  color: #928078;
+
+  white-space: nowrap;
+}
+
+.record-count strong {
+  color: #5b4136;
+
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.record-count span {
+  font-size: 12px;
+}
+
+
+/* =========================================================
+   DIVIDER
+   ========================================================= */
+
+.history-divider {
+  height: 1px;
+
+  margin-top: 22px;
+
+  background: #ebe1d8;
+}
+
+
+/* =========================================================
+   RECORD LIST
+   ========================================================= */
+
+.history-list {
+  margin-top: 17px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+
+/* =========================================================
+   PAYMENT RECORD
+   ========================================================= */
+
+.payment-record {
+  min-height: 110px;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(155px, 0.75fr)
+    minmax(410px, 1.7fr)
+    82px;
+
+  align-items: center;
+
+  gap: 25px;
+
+  padding: 21px 23px;
+
+  box-sizing: border-box;
+
+  background: #fffaf5;
+
+  border: 1px solid #e3d7cc;
+
+  border-radius: 14px;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.payment-record:hover {
+  border-color: #cfb5a6;
+
+  box-shadow:
+    0 9px 24px rgba(83, 57, 45, 0.07);
+
+  transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   RECORD MAIN
+   ========================================================= */
+
+.record-main {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 8px;
+}
+
+.record-month {
+  color: #543b31;
+
+  font-size: 18px;
+  font-weight: 750;
+
+  line-height: 1.2;
+}
+
+.payment-status {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 5px;
+
+  padding: 5px 9px;
+
+  border-radius: 20px;
+
+  font-size: 11px;
+  font-weight: 750;
+}
+
+.payment-status span {
+  font-size: 10px;
+}
+
+
+/* PAID */
+
+.payment-status.paid {
+  background: #e8f0ea;
+
+  color: #587564;
+}
+
+
+/* PENDING */
+
+.payment-status.pending {
+  background: #f5e8e2;
+
+  color: #a25f48;
+}
+
+
+/* =========================================================
+   RECORD DETAILS
+   ========================================================= */
+
+.record-details {
+  display: grid;
+
+  grid-template-columns:
+    0.8fr
+    1fr
+    1.25fr;
+
+  gap: 25px;
+
+  align-items: center;
+}
+
+.record-detail {
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 5px;
+}
+
+.record-detail span {
+  color: #9b8980;
+
+  font-size: 10px;
+  font-weight: 650;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.7px;
+}
+
+.record-detail strong {
+  color: #5c463c;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  line-height: 1.35;
+
+  white-space: nowrap;
+}
+
+.record-detail:first-child strong {
+  color: #a8664e;
+
+  font-size: 16px;
+}
+
+
+/* =========================================================
+   PAYMENT MARK
+   ========================================================= */
+
+.record-payment-mark {
+  min-height: 64px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+
+  border-left: 1px solid #eee5dc;
+}
+
+.record-payment-mark span {
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.record-payment-mark small {
+  font-size: 10px;
+  font-weight: 750;
+}
+
+
+/* PAID MARK */
+
+.record-payment-mark.paid {
+  color: #587564;
+}
+
+.record-payment-mark.paid span {
+  background: #e5eee7;
+}
+
+
+/* PENDING MARK */
+
+.record-payment-mark.pending {
+  color: #a25f48;
+}
+
+.record-payment-mark.pending span {
+  background: #f5e8e2;
+}
+
+
+/* =========================================================
+   EMPTY / LOADING
+   ========================================================= */
+
+.history-empty {
+  margin-top: 17px;
+
+  padding: 34px;
+
+  text-align: center;
+
+  color: #8e7d74;
+
+  background: #fffaf5;
+
+  border: 1px solid #e3d7cc;
+
+  border-radius: 14px;
+
+  font-size: 13px;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 950px) {
+  .maintenance-main {
+    padding: 45px 25px 60px;
+  }
+
+  .maintenance-create-section {
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+  }
+
+  .maintenance-intro {
+    padding-top: 0;
+  }
+
+  .maintenance-intro h2 {
+    font-size: 46px;
+  }
+
+  .maintenance-points {
+    display: grid;
+
+    grid-template-columns:
+      repeat(3, 1fr);
+
+    gap: 18px;
+  }
+
+  .maintenance-point {
+    flex-direction: column;
+  }
+
+  .payment-record {
+    grid-template-columns:
+      150px
+      1fr;
+
+    gap: 20px;
+  }
+
+  .record-payment-mark {
+    display: none;
+  }
+
+  .record-details {
+    grid-column: 1 / -1;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 650px) {
+  .maintenance-header {
+    height: 66px;
+
+    padding: 0 17px;
+  }
+
+  .maintenance-brand-mark {
+    width: 38px;
+    height: 38px;
+  }
+
+  .maintenance-brand h1 {
+    font-size: 18px;
+  }
+
+  .maintenance-brand span {
+    font-size: 9px;
+  }
+
+  .maintenance-dashboard-btn {
+    padding: 8px 10px;
+
+    font-size: 11px;
+  }
+
+  .maintenance-main {
+    padding: 34px 16px 48px;
+  }
+
+  .maintenance-intro h2 {
+    font-size: 39px;
+
+    letter-spacing: -1.6px;
+  }
+
+  .maintenance-intro > p {
+    font-size: 14px;
+  }
+
+  .maintenance-points {
+    display: flex;
+
+    gap: 18px;
+
+    margin-top: 30px;
+  }
+
+  .maintenance-point {
+    flex-direction: row;
+  }
+
+  .maintenance-form-card {
+    padding: 23px;
+
+    border-radius: 16px;
+  }
+
+  .maintenance-form-card::before {
+    left: 23px;
+    right: 23px;
+  }
+
+  .maintenance-form-top h3 {
+    font-size: 24px;
+  }
+
+  .ready-badge {
+    display: none;
+  }
+
+  .maintenance-two-fields {
+    grid-template-columns: 1fr;
+  }
+
+
+  /* PAYMENT HISTORY */
+
+  .payment-history {
+    margin-top: 48px;
+
+    padding-top: 27px;
+  }
+
+  .history-heading {
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    gap: 10px;
+  }
+
+  .history-heading h2 {
+    font-size: 26px;
+  }
+
+  .record-count {
+    align-self: flex-start;
+  }
+
+  .payment-record {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: stretch;
+
+    gap: 19px;
+
+    padding: 20px;
+  }
+
+  .record-main {
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 10px;
+  }
+
+  .record-details {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 17px;
+  }
+
+  .record-detail:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .record-detail strong {
+    white-space: normal;
+
+    font-size: 13px;
+  }
+
+  .record-detail:first-child strong {
+    font-size: 15px;
+  }
+
+  .record-payment-mark {
+    display: none;
+  }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 390px) {
+  .maintenance-brand span {
+    display: none;
+  }
+
+  .maintenance-brand-mark {
+    width: 35px;
+    height: 35px;
+  }
+
+  .maintenance-intro h2 {
+    font-size: 33px;
+  }
+
+  .maintenance-form-card {
+    padding: 19px;
+  }
+
+  .maintenance-form-card::before {
+    left: 19px;
+    right: 19px;
+  }
+
+  .record-main {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  .record-details {
+    grid-template-columns: 1fr;
+  }
+
+  .record-detail:last-child {
+    grid-column: auto;
+  }
+}
